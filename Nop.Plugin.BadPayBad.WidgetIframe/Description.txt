@@ -1,0 +1,8 @@
+﻿Group: badpaybad.info
+FriendlyName: BadPayBadWidgetIframeNopPlugin
+SystemName: Nop.Plugin.BadPayBad.WidgetIframe.BadPayBadWidgetIframeNopPlugin
+Version: 1.13
+SupportedVersions: 3.70
+Author: badpaybad.info
+DisplayOrder: 1
+FileName: Nop.Plugin.BadPayBad.WidgetIframe.dll 

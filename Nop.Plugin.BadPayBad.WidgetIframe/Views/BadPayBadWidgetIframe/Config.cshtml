@@ -1,0 +1,16 @@
+﻿@model Nop.Plugin.BadPayBad.WidgetIframe.Models.BadPayBadWidgetIframeModel
+<fieldset>
+    <legend>Config widget iframe</legend>
+    @using (Html.BeginForm())
+    {
+        <div>
+            urlSource:<br />
+            <input name="urlSource" id="urlSource" value="@Model.UrlSrouce" />
+            <br />
+
+            <input type="submit" value="submit" />
+
+            @Html.AntiForgeryToken()
+        </div>
+    }
+</fieldset>
